@@ -52,7 +52,7 @@ def upload():
     gray_uploaded = cv2.cvtColor(cv2.imdecode(np.fromstring(uploaded_data, np.uint8), cv2.IMREAD_COLOR), cv2.COLOR_BGR2GRAY)
 
     # Specify the path to the folder containing stored photos
-    stored_photos_folder = '/home/neww/Downloads/image_matching_app/static/image/'
+    stored_photos_folder = 'static/image/'
 
     # Loop through all files in the folder
     for filename in os.listdir(stored_photos_folder):
