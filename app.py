@@ -78,6 +78,6 @@ def upload():
     # If no match is found with any stored photo
     return render_template('video.html')
 
-# if __name__ == '__main__':
-#     # app.run(debug=True)
-#     app.run(debug=False, host='0.0.0.0')
+if __name__ == '__main__':
+    # app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0')
